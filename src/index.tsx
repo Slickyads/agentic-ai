@@ -187,10 +187,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center space-x-3">
             <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-black font-extrabold text-xl shadow-lg shadow-amber-500/20">
-              N
+              G
             </div>
             <div>
-              <span className="font-bold text-lg text-white tracking-tight">named<span className="text-amber-400">.ai</span></span>
+              <span className="font-bold text-lg text-white tracking-tight">getintelligence<span className="text-amber-400">.ai</span></span>
               <span className="ml-2 px-2 py-0.5 text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20 rounded-full">
                 GEO Engine v2.4
               </span>
