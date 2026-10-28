@@ -106,7 +106,7 @@ const MOCK_DATASETS = {
   }
 };
 
-export default function App() {
+export default function Dashboard() {
   const [domainInput, setDomainInput] = useState('slickyads.com');
   const [isScanning, setIsScanning] = useState(false);
   const [scanProgress, setScanProgress] = useState(0);
@@ -182,31 +182,6 @@ export default function App() {
 
   return (
     <div className="min-h-screen bg-[#0E1117] text-slate-100 font-sans antialiased selection:bg-amber-500 selection:text-black">
-      {/* Header Bar */}
-      <header className="border-b border-slate-800 bg-[#141923]/80 backdrop-blur-md sticky top-0 z-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-          <div className="flex items-center space-x-3">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-amber-500 to-amber-300 flex items-center justify-center text-black font-extrabold text-xl shadow-lg shadow-amber-500/20">
-              G
-            </div>
-            <div>
-              <span className="font-bold text-lg text-white tracking-tight">getintelligence<span className="text-amber-400">.ai</span></span>
-              <span className="ml-2 px-2 py-0.5 text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/20 rounded-full">
-                GEO Engine v2.4
-              </span>
-            </div>
-          </div>
-          <div className="flex items-center space-x-4 text-sm font-medium">
-            <button className="hidden sm:inline-flex text-slate-400 hover:text-white transition">How it works</button>
-            <button className="hidden sm:inline-flex text-slate-400 hover:text-white transition">Pricing</button>
-            <button className="px-4 py-2 rounded-lg bg-amber-500 hover:bg-amber-400 text-black font-semibold transition shadow-md shadow-amber-500/20">
-              Free Scan
-            </button>
-          </div>
-        </div>
-      </header>
-
-      {/* Hero Header & Scanner Input Section */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-16">
         <div className="text-center max-w-3xl mx-auto mb-10">
           <h1 className="text-3xl sm:text-5xl font-black text-white tracking-tight leading-tight">
